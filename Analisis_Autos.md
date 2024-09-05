@@ -125,7 +125,7 @@ ggplot(data = top5, aes(x = reorder(manufacturer, -n), y = n, fill = manufacture
   scale_fill_brewer(palette = "Set1")
 ```
 
-![](Analisis_Carros_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](fotos/marcas_mas_vendidas.png)<!-- -->
 
 ### ¿Cuales son los tipos de vehiculo mas comunes?
 
