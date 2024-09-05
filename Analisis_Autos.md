@@ -270,7 +270,7 @@ ggplot(data = marcas_df, aes(x = year, y = price, color = marca)) +
     ## Warning: Removed 196 rows containing missing values or values outside the scale range
     ## (`geom_smooth()`).
 
-![](Analisis_Carros_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
+![](fotos/ano_fabricacion_precio_marca.png)<!-- -->
 
 ## Conclusiones
 
