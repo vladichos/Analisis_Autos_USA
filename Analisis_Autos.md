@@ -136,7 +136,7 @@ ggplot(data=autos_df) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size=10))
 ```
 
-![](Analisis_Carros_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](fotos/tipos_mas_vendidos.png)<!-- -->
 
 ### ¿Existe relacion entre el millaje y el precio?
 
@@ -153,7 +153,7 @@ ggplot(data = autos_df, aes(x = odometer, y = price)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](Analisis_Carros_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](fotos/Millaje_Precio.png)<!-- -->
 
 De acuerdo con la linea roja de la regresion lineal podemos deducir que
 los vehiculos pierden valor conforme aumenta su kilometraje.
@@ -219,7 +219,7 @@ ggplot(data = marcas_df, aes(x = odometer, y = price, color = marca)) +
     ## Warning: Removed 172 rows containing missing values or values outside the scale range
     ## (`geom_smooth()`).
 
-![](Analisis_Carros_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+![](fotos/millaje_precio_Marcas.png)<!-- -->
 
 En el grafico se puede apreciar que honda es la marca que menos
 depreciacion tiene conforme aumenta su millaje, pero para estar seguros
